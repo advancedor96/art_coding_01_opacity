@@ -17,6 +17,7 @@ html, body{
    background-size: cover;
    background-repeat: no-repeat;
    padding: 20px 40px;
+   background-position: center center;
 }
 .overlay{
    background-color: rgba(176, 120, 15, 0.5);    
@@ -26,7 +27,7 @@ html, body{
 }
 .text{
    color: rgba(239, 162, 19, 0.75);
-   font-size:6vh;
+   font-size:6vmin;
    font-family: "arial black";
 
 }

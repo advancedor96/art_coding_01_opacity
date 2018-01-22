@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>01 透明度</title>
+   <link rel="stylesheet" href="./css/index.css">
+</head>
+<!-- 心得：
+把css *所有元素都設 box-sizing: border-box;
+background-size  可以設 cover。會自動填滿所有圖片。
+
+font-size使用vh，如果螢幕變小，字也會跟著縮小。那些margin、line-height等也都用vh ，這樣很棒。
+
+防止文字溢出：(模版)
+在最接近文字的html元素，設
+overflow: hidden, text-overflow: ellipsis; -->
+<body>
+   <div class="wrap">
+      <div class="overlay">
+         <div class="text">
+            <span>360° </span>
+            <span style="margin-top: 5vh;line-height: 4vh;height: 12vh;">back <br/>packer</span>
+            <span style="margin-top: 5vh;">experience</span>
+
+         </div>
+      </div>
+   </div>
+</body>
+</html>
